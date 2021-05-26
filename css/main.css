@@ -1,1 +1,41 @@
-/* Inserta tu codigo aqui */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body *{
+    outline: 1px solid pink;
+}
+.wrapper{
+    width: 1200px;
+    min-height: 600px;
+    margin: 0px auto;
+}
+.header{
+    padding: 15px;
+}
+    .header img{
+        width: 100px;
+        margin: 0px 100px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+    .header .navbar{
+        width: 685px;
+        font-size: normal;
+        font-weight: bold;
+        color: #969696;
+        display: inline-block;
+    }
+        .header .navbar ul{
+        }
+        .header .navbar ul li{
+            padding: 20px;
+            display: inline;
+        }
+        .header .navbar a{
+            color: #969696;
+            text-decoration: none;
+        }
+        .header .navbar a:hover{
+            text-decoration: underline ;
+        }
