@@ -26,8 +26,6 @@ body *{
         color: #969696;
         display: inline-block;
     }
-        .header .navbar ul{
-        }
         .header .navbar ul li{
             padding: 20px;
             display: inline;
