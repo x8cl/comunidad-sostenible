@@ -2,12 +2,15 @@
     margin: 0px;
     padding: 0px;
 }
-body *{
+/* body *{
     outline: 1px solid pink;
+} */
+h2{
+    margin-bottom: 10px;
 }
 .wrapper{
     width: 1200px;
-    min-height: 600px;
+    min-height: 4000px;
     margin: 0px auto;
 }
 .header{
@@ -21,8 +24,6 @@ body *{
     }
     .header .navbar{
         width: 685px;
-        font-size: normal;
-        font-weight: bold;
         color: #969696;
         display: inline-block;
     }
@@ -37,3 +38,36 @@ body *{
         .header .navbar a:hover{
             text-decoration: underline ;
         }
+.mainBanner{
+    width: 1200px;
+    height: 390px;
+    background-image: url(/img/semilla.jpg);
+}
+.bloque1{
+    min-height: 50px;
+}
+    .bloque1 p{
+        margin: 0% 10%;
+    }
+.bloque2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+    .bloque2 img{
+        width: 150px;
+    }
+.bloque3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+    .bloque3 .left{
+        height: 420px;
+        background-image: url(/img/metodo.JPG);
+        vertical-align: top;
+        display: inline-block;
+    }
+    .bloque3 .right{
+        background-image: url(/img/fondo.jpg);
+        display: inline-block;
+    }
