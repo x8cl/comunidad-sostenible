@@ -134,3 +134,36 @@ h3{
             height: 35px;
             margin: 0px 5px;
         }
+.bloque7{
+    width: 1200px;
+    height: 430px;
+    background-image: url(/img/fondo2.jpg);
+}
+    .bloque7 .top{
+        display: block;
+    }
+    .bloque7 .prev{
+        width: 45px;
+        height: 45px;
+        background-image: url(/img/iconos/slider/ecomunidad-15.png);
+        float: left;
+        margin-left: 30px;
+    }       
+    .bloque7 .next{
+        width: 45px;
+        height: 45px;
+        background-image: url(/img/iconos/slider/ecomunidad-16.png);
+        float: right;
+        margin-right: 30px;
+    }
+    .bloque7 .slider{
+        margin: 0px auto;
+    }
+        .bloque7 .slider .content{
+            width: 280px;
+            padding: 4%;
+            display: inline-block;
+        }
+            .bloque7 .slider img{
+                width: 300px;
+            }
