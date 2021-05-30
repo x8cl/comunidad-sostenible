@@ -140,11 +140,13 @@ h3{
     background-image: url(/img/fondo2.jpg);
 }
     .bloque7 .top{
+        padding: 30px;
         display: block;
     }
     .bloque7 .prev{
         width: 45px;
         height: 45px;
+        margin-top: 10%;
         background-image: url(/img/iconos/slider/ecomunidad-15.png);
         float: left;
         margin-left: 30px;
@@ -152,6 +154,7 @@ h3{
     .bloque7 .next{
         width: 45px;
         height: 45px;
+        margin-top: 10%;
         background-image: url(/img/iconos/slider/ecomunidad-16.png);
         float: right;
         margin-right: 30px;
@@ -159,11 +162,20 @@ h3{
     .bloque7 .slider{
         margin: 0px auto;
     }
+        .bloque7 .slider a{
+            text-decoration: none;
+            text-align: left;
+            color: rgb(83, 88, 95);
+        }
+        .bloque7 .slider a:hover{
+            color: #5E8039;
+        }
         .bloque7 .slider .content{
-            width: 280px;
-            padding: 4%;
+            width: 250px;
+            margin: 0px 40px;
+            vertical-align: top;
             display: inline-block;
         }
-            .bloque7 .slider img{
-                width: 300px;
+            .bloque7 .slider .content img{
+                width: 250px;
             }
