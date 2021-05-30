@@ -153,7 +153,7 @@ h3{
         width: 45px;
         height: 45px;
         margin-top: 10%;
-        background-image: url(/img/iconos/slider/ecomunidad-15.png);
+        background-image: url("../img/iconos/slider/ecomunidad-15.png");
         float: left;
         margin-left: 30px;
     }       
@@ -161,7 +161,7 @@ h3{
         width: 45px;
         height: 45px;
         margin-top: 10%;
-        background-image: url(/img/iconos/slider/ecomunidad-16.png);
+        background-image: url("../img/iconos/slider/ecomunidad-16.png");
         float: right;
         margin-right: 30px;
     }
