@@ -20,6 +20,9 @@ h3{
 .mb-10{
     margin-bottom: 10%;
 }
+.barrita{
+    padding: 0px 20px;
+}
 .wrapper{
     width: 1200px;
     min-height: 4000px;
@@ -40,7 +43,6 @@ h3{
         display: inline-block;
     }
         .header .navbar ul li{
-            padding: 20px;
             display: inline;
         }
         .header .navbar a{
