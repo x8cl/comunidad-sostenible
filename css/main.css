@@ -55,7 +55,8 @@ h3{
 .mainBanner{
     width: 1200px;
     height: 390px;
-    background-image: url(/img/semilla.jpg);
+    background-image: url("../img/semilla.jpg");
+    background-color: rgb(83, 88, 95);
 }
 .bloque1{
     min-height: 50px;
@@ -76,12 +77,12 @@ h3{
 }
     .bloque3 .left{
         height: 420px;
-        background-image: url(/img/metodo.JPG);
+        background-image: url("../img/metodo.JPG");
         vertical-align: top;
         display: inline-block;
     }
     .bloque3 .right{
-        background-image: url(/img/fondo.jpg);
+        background-image: url("../img/fondo.jpg");
         display: inline-block;
     }
 .bloque4{
@@ -142,7 +143,7 @@ h3{
 .bloque7{
     width: 1200px;
     height: 420px;
-    background-image: url(/img/fondo2.jpg);
+    background-image: url("../img/fondo2.jpg");
 }
     .bloque7 .top{
         padding: 30px;
